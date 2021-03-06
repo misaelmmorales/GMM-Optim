@@ -20,8 +20,8 @@ numsamples = 1000;          % Number of randomly generated data points
 
 mu1 = [-2 3];               % Mean vector 1
 mu2 = [4 -5];               % Mean vector 2
-sigma1 = [15 1 ; 0 5];       % Covariance matrix 1
-sigma2 = [12 1 ; 1 10];       % Covariance matrix 2
+sigma1 = [15 1 ; 0 5];      % Covariance matrix 1
+sigma2 = [12 1 ; 1 10];     % Covariance matrix 2
 prop = [7 3];               % Proportion of each distribution
 prop = prop/sum(prop);      % Normalize proportions as decimals constraint
 
